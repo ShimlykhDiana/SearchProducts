@@ -157,7 +157,13 @@ body {
   color: rgb(10, 20, 58);
 }
 .content-product__img {
-  width: 100%;
+  max-width: 400px; /* image won’t be bigger than this */
+  max-height: 300px; /* limit height */
+  width: auto; /* keep natural aspect ratio */
+  height: auto; /* no skewing */
+  display: block;
+  margin: 0 auto; /* center image horizontally */
+  border-radius: 8px;
 }
 .content-product__text {
   font-size: 14px;

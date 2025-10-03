@@ -12,7 +12,9 @@
   display: flex;
 }
 .card--img img {
+  height: 250px;
   width: 100%;
+  object-fit: cover;
 }
 .card--title {
   margin-top: 15px;
